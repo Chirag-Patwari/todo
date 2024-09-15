@@ -1,0 +1,13 @@
+.left{
+    background-color: #222222;
+    color: white;
+}
+.right{
+    background-color: #434343;
+    height: 100vh;
+}
+.task{
+    background-color: #F5F5F7;
+    border-radius: 21px;
+    
+}

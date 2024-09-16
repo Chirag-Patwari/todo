@@ -1,8 +1,9 @@
 // let tasks = []
 let count = 0
 
-function addTask(){
+function addTask(event){
     // alert("added")
+    event.preventDefault()
     let newtask = {
         name:document.getElementById("newTask").value,
         created:new Date().toLocaleString(),
@@ -15,6 +16,7 @@ function addTask(){
     newtaskEl.id = newtask.id
     newtaskEl.classList.add('row', 'task', 'm-3', 'align-items-center', 'text-start')
     document.getElementById("tasklist").appendChild(newtaskEl)
+    document.getElementById("newTask").value = ""
 
     // alert(newtask)
 

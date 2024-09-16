@@ -15,14 +15,14 @@
                             <div class="m-3">
                                 <h1>Todo List</h1>
                             </div>
-                            <div class="m-3">
-                                <input id="newTask" class="form-control form  " type="text" placeholder="Start Typing...">
-                            </div>
-                            <div class="m-3">
-                                <button class="btn btn-primary" onclick="addTask()">Add</button>
-                            </div>
-                            
-                            
+                            <form onsubmit="addTask(event)">
+                                <div class="m-3">
+                                    <input  id="newTask" class="form-control form  " type="text" placeholder="Start Typing..." required>
+                                </div>
+                                <div class="m-3">
+                                    <button class="btn btn-primary" >Add</button>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

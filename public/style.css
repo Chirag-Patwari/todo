@@ -1,10 +1,13 @@
 .left{
     background-color: #222222;
-    color: white;
+    color: #ffffff;
+    /* height: 100vh; */
 }
 .right{
     background-color: #434343;
     height: 100vh;
+    max-height: 100vh;
+    overflow-y : auto;
 }
 .task{
     background-color: #F5F5F7;
